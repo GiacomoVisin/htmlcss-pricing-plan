@@ -10,6 +10,7 @@
 
   body{
     font-family:sans-serif;
+    margin: 0 auto;
     
   }
 
@@ -19,13 +20,25 @@
 
 /* container rules */
 
-  .container{
-    width: 900px;
+  .container_header{
+    width: 1200px;
     margin: 0 auto;
-    border: 1px dashed black;
     position:relative;
     padding-top: 1rem;
 }
+
+.container_main{
+   max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed red;
+    margin-top: 1rem;
+ 
+}
+
+
+
+
+
 /* container rules */
 
 /* header */
@@ -65,4 +78,74 @@ header  p{
     color:black;
 }
 
+/* header */
 
+
+/* Main */
+
+.card_deck{
+    display:flex;
+}
+
+
+.card1{
+    width: 300px;
+    border:1px solid rgb(105, 91, 91);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 1px rgb(133, 112, 112);
+   
+
+    h2{
+        padding-top: 1rem;
+        padding-left: 2rem
+    }
+
+    >p{
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        color: grey;
+    }
+
+}
+
+.paragraph{
+  width: 250px;
+  text-align:center;
+  margin: 0 auto ;
+
+
+  span{
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+
+
+
+
+  .span1{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 10;
+  }
+
+  p:first-child{
+    margin-bottom: 1.5rem;
+  }
+  
+  .span2{
+    background-color:lightgrey;
+    font-size: 0.8rem;
+    font-weight:normal;
+    border-radius: 0.5rem;
+    padding: 5px 8px;
+  }
+
+
+}
+
+
+
+
+
+  
