@@ -34,12 +34,11 @@
     margin-top: 1rem;
  
 }
-
-
-
-
-
 /* container rules */
+
+
+
+
 
 /* header */
 
@@ -88,11 +87,10 @@ header  p{
 }
 
 
-.card1{
+.card{
     width: 300px;
-    border:1px solid rgb(105, 91, 91);
     border-radius: 1rem;
-    box-shadow: 1px 1px 1px 1px rgb(133, 112, 112);
+    box-shadow: 2px 4px 10px 7px rgb(211 177 177);
    
 
     h2{
@@ -109,7 +107,7 @@ header  p{
 }
 
 .paragraph{
-  width: 250px;
+  width: 290px;
   text-align:center;
   margin: 0 auto ;
 
@@ -145,7 +143,41 @@ header  p{
 }
 
 
+.plan_btn{
+    width: 85%;
+    height: 50px;
+    margin-top: 1.5rem;
+    border-radius: 0.8rem;
+    border-style:none;
+    background-color: #6500ff;
+    color:white;
+    
+}
 
 
+.details{
+
+    list-style:none;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  
+
+    .bi{
+        font-size: 2rem;
+    }
+
+    li{
+        display:flex;
+        align-items:center;
+        gap: 12px;
+    }
+
+   
+    .text{
+        font-size: 1rem;
+    }
+}
 
   
