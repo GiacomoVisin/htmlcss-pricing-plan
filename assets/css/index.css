@@ -1,0 +1,68 @@
+/* preset rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+  body{
+    font-family:sans-serif;
+    
+  }
+
+/* preset rules */
+
+
+
+/* container rules */
+
+  .container{
+    width: 900px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    position:relative;
+    padding-top: 1rem;
+}
+/* container rules */
+
+/* header */
+
+header  p{
+    padding-top: 0.1rem;
+    color: grey;
+
+}
+
+.header_btn {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    top: 5px;
+    right: 2rem;
+    font-size: 1rem;
+    color:grey;
+    padding-top: 0.5rem
+}
+
+.header_btn i{
+    font-size: 1.5rem;
+   
+}
+
+.header_btn span{
+    padding: 0rem 0.5rem
+   
+}
+
+
+
+.bi.bi-toggle-on{
+    color:black;
+}
+
+
