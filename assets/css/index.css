@@ -21,15 +21,19 @@
 /* container rules */
 
   .container_header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 20px;
+    flex-wrap:wrap;
     max-width: 1200px;
-    min-width: 300px;
     margin: 0 auto;
     position:relative;
     padding-top: 1rem;
 }
 
 .container_main{
-   max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     border-left: 2px dashed red;
     border-right: 2px dashed red;
@@ -52,11 +56,9 @@ header  p{
 
 .header_btn {
     display:flex;
+    flex-wrap:wrap;
     flex-direction:row;
     align-items:center;
-    position:relative;
-    top: -70px;
-    right: -1000px;
     font-size: 1rem;
     color:grey;
     padding-top: 0.5rem;
@@ -100,7 +102,7 @@ header  p{
 
 
 .card{
-    min-width: 300px;
+    min-width: 350px;
     border-radius: 1rem;
     box-shadow: 2px 4px 10px 7px rgb(211 177 177);
     flex-shrink:0;
@@ -126,7 +128,7 @@ header  p{
 
 
 .paragraph{
-  width: 290px;
+  width: 80%;
   text-align:center;
   margin: 0 auto ;
 
@@ -162,7 +164,7 @@ span{
 
 
 .plan_btn{
-    width: 85%;
+    width: 100%;
     height: 50px;
     margin-top: 1.5rem;
     border-radius: 0.8rem;
@@ -192,19 +194,19 @@ span{
 
 
 .details{
-
     list-style:none;
     text-align:center;
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 30px;
+}
   
 
-    .bi{
+    .details .bi{
         font-size: 2rem;
     }
 
-    li{
+    .details li{
         display:flex;
         align-items:center;
         gap: 12px;
@@ -214,10 +216,13 @@ span{
     .text{
         font-size: 1rem;
     }
-}
+
 
 
 /* Main */  /* card layout */
+
+
+/* alternative rules for "professional" card */
 
 .active{
     background-color:white;
@@ -244,4 +249,86 @@ background-color:#6500ff
     font-size:1rem;
 }
 
+.white{
+    color:#6500ff;
+    background-color:white;
+}
+
 /* alternative rules for "professional" card */
+
+
+/* alternative rules for "Ultimate" card */
+
+
+.details_grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 2fr));
+   
+    list-style:none;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.details_grid .bi{
+    font-size: 2rem;
+}
+
+.details_grid li{
+    display:flex;
+    align-items:center;
+    gap: 12px;
+}
+
+
+.plan_btn-ultimate{
+    display:block;
+    width:100%;
+    height: 50px;
+    margin-top: 1.5rem;
+    border-radius: 0.8rem;
+    border-style:none;
+    background-color: #6500ff;
+    color:white;
+    cursor:pointer;
+    font-weight: 800;
+  
+}
+
+.paragraph_ultimate{
+    width: 80%;
+    text-align:center;
+    margin: 0  auto ;
+  
+    
+  .span1{
+      font-size: 1rem;
+      color: grey;
+      font-weight: 10;
+    }
+  
+  
+    
+  
+  
+    p:first-child{
+      margin-bottom: 1.5rem;
+    }
+    
+    .span2{
+      background-color:lightgrey;
+      font-size: 0.8rem;
+      font-weight:normal;
+      border-radius: 0.5rem;
+      padding: 5px 8px;
+    }
+  }
+    
+
+
+
+
+
+
+
